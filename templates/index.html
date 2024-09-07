@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Email - Extractor</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='mystyle.css')}}">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+<div class="nav">
+
+</div>
+</div>
+<div class="content">
+<h1> Email Extraction </h1><div><br><br>
+    <form action="http://127.0.0.1:5000/process-credentials" method="post">
+<div class="container">
+<input type=text name=T1 placeholder="E-mail"><br>
+<input type=password name=P1 placeholder="Password"><br>
+</div>
+    <button type="submit"><span></span>EXTRACT</button>
+    </form>
+</div>
+</div>
+</div>
+</body>
+</html>
